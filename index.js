@@ -1,3 +1,10 @@
+// incorporating the inquirer node module
+const inquirer = require("inquirer");
+// incorporating the file system node module
+const fs = require('fs');
+// 
+
+
 // array of questions for user
 const questions = [
 
