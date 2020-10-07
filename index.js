@@ -2,7 +2,10 @@
 const inquirer = require("inquirer");
 // incorporating the file system node module
 const fs = require('fs');
-// 
+// incorporating axios
+const axios = require("axios");
+// requiring generate markdown file
+const generate = require('./utils/generateMarkdown');
 
 
 // array of questions for user
