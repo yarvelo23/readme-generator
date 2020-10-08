@@ -86,7 +86,7 @@ inquirer
         });
         
     });
-}};
+});
 
 // function to initialize program
 function init() {
