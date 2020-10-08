@@ -27,5 +27,8 @@ node index.js
 
 
 ## README Generator Screenshots
+The below images display the README Generator functionality
 
+![Initializing-Application](screenshot1.jpg)
 
+![Prompts](screenshot2.jpg)
