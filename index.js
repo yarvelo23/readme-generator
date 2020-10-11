@@ -66,7 +66,7 @@ const questions = [
 inquirer
     .prompt(questions)
     .then(function(data){
-        const queryUrl = 'https://api.github.com/users/${data.username}';
+        const queryUrl = `https://api.github.com/users/${data.username}`;
 
         axios.get(queryUrl).then(function(res){
 
